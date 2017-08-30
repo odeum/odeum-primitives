@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-class Link extends Component {
+class Space extends Component {
 	render() {
 		return (
 			<div>
@@ -11,17 +11,17 @@ class Link extends Component {
 	}
 }
 
-Link.propTypes = {
+Space.propTypes = {
 	xxx: PropTypes.string,
 	yyy: PropTypes.string,
 	zzz: PropTypes.string
 }
 
-Link.defaultProps = {
+Space.defaultProps = {
 	xxx: '',
 	yyy: '',
 	zzz: ''
 }
 
 
-export default Link
+export default Space

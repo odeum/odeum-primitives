@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-class Heading extends Component {
+class View extends Component {
 	render() {
 		return (
 			<div>
@@ -11,17 +11,17 @@ class Heading extends Component {
 	}
 }
 
-Heading.propTypes = {
+View.propTypes = {
 	xxx: PropTypes.string,
 	yyy: PropTypes.string,
 	zzz: PropTypes.string
 }
 
-Heading.defaultProps = {
+View.defaultProps = {
 	xxx: '',
 	yyy: '',
 	zzz: ''
 }
 
 
-export default Heading
+export default View

@@ -15,6 +15,7 @@ ODEUM Primitives (odeum-primitives) are a collection of simple visual components
 # 1. Components
 
 - View - a container for creating styled views
+- Space - empty spaces (transparent, color)
 - Text - a simple text paragraph
 - Heading - a simple header component
 - Label - Label component
