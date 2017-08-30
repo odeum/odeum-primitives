@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
+import Heading from 'components/Heading/Heading'
+import { StyledHeading3 } from 'components/Heading/StyledHeading'
 
 class App extends Component {
 	render() {
 		return (
-            <div>
-                <p>To get started, edit <code>src/App.js</code> and save to reload.</p>
-            </div>
+			<div>
+				{/* <Heading>Hello World</Heading> */}
+				<Heading><StyledHeading3>Hello World</StyledHeading3></Heading>
+			</div>
 		)
 	}
 }
