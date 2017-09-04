@@ -2,10 +2,13 @@
   <img alt="ODEUM Primitives" src="./logotype.png" />
 </a>
 
-React UI component primitives for [ODEUM Code](https://github.com/odeum/odeum-code) built with styled-components
+ODEUM Primitives are React UI component primitives for [ODEUM Code](https://github.com/odeum/odeum-code) built with styled-components
 
 [![Build Status](https://travis-ci.org/odeum/odeum-primitives.svg?branch=master)](https://travis-ci.org/odeum/odeum-primitives)
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/odeum-primitives)
+[![npm](https://img.shields.io/npm/v/odeum-primitives.svg)](https://www.npmjs.com/package/odeum-primitives)
+![NPM license](https://img.shields.io/npm/l/odeum-primitives.svg?style=flat)
+![NPM total downloads](https://img.shields.io/npm/dt/odeum-primitives.svg?style=flat)
+![NPM monthly downloads](https://img.shields.io/npm/dm/odeum-primitives.svg?style=flat)
 
 <!-- TOC -->
 
