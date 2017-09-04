@@ -7,8 +7,6 @@ ODEUM Primitives are ReactJS UI primitives build for [ODEUM Code](https://github
 [![Build Status](https://travis-ci.org/odeum/odeum-primitives.svg?branch=master)](https://travis-ci.org/odeum/odeum-primitives)
 [![npm](https://img.shields.io/npm/v/odeum-primitives.svg)](https://www.npmjs.com/package/odeum-primitives)
 ![NPM license](https://img.shields.io/npm/l/odeum-primitives.svg?style=flat)
-![NPM total downloads](https://img.shields.io/npm/dt/odeum-primitives.svg?style=flat)
-![NPM monthly downloads](https://img.shields.io/npm/dm/odeum-primitives.svg?style=flat)
 
 <!-- TOC -->
 
