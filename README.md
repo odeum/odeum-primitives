@@ -2,7 +2,7 @@
   <img alt="ODEUM Primitives" src="./logotype.png" />
 </a>
 
-ODEUM Primitives are React UI component primitives for [ODEUM Code](https://github.com/odeum/odeum-code) built with styled-components
+ODEUM Primitives are ReactJS UI primitives build for [ODEUM Code](https://github.com/odeum/odeum-code).
 
 [![Build Status](https://travis-ci.org/odeum/odeum-primitives.svg?branch=master)](https://travis-ci.org/odeum/odeum-primitives)
 [![npm](https://img.shields.io/npm/v/odeum-primitives.svg)](https://www.npmjs.com/package/odeum-primitives)
@@ -19,7 +19,7 @@ ODEUM Primitives are React UI component primitives for [ODEUM Code](https://gith
 <!-- /TOC -->
 
 # 1. Components
-ODEUM Primitives (odeum-primitives) are a collection of simple visual components for the ODEUM Code OSS framework. All components are build with styled-components and ReactJS and the following components will be added:
+ODEUM Primitives (odeum-primitives) are a collection of simple visual components build for ODEUM Code open source UI framework. All components are build with styled-components and ReactJS and the following components will be added:
 
 - Heading - a simple header component
 - Image - Image component with async resource fetch and assets control
@@ -40,7 +40,13 @@ yarn add odeum-primitives
 
 ```js
 import React from 'react'
-import { Heading, Image, Label, Link, Space, Text, View } from 'odeum-primitives'
+import { Heading, 
+		 Image, 
+		 Label, 
+		 Link, 
+		 Space, 
+		 Text, 
+		 View } from 'odeum-primitives'
 
 ...
 

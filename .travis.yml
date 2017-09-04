@@ -1,15 +1,21 @@
 sudo: false
+
 language: node_js
+
 node_js:
 - stable
+
 notifications:
   email: true
   slack: webhouseteam:82qu1PX5R5wkYNCW5x6fVlhu
+
 branches:
   only:
   - master
+
 script:
 - yarn build
+
 deploy:
   skip_cleanup: true
   provider: npm
