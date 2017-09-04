@@ -1,3 +1,4 @@
+dist: trusty
 sudo: false
 
 language: node_js
@@ -15,6 +16,9 @@ branches:
 
 script:
 - yarn build
+
+cache:
+  yarn: true
 
 deploy:
   skip_cleanup: true

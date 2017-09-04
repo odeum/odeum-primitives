@@ -1,9 +1,9 @@
 {
   "name": "odeum-primitives-example",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "private": true,
   "dependencies": {
-    "odeum-primitives": "^0.1.8",
+    "odeum-primitives": "^0.1.9",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.12",
