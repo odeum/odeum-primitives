@@ -1,21 +1,23 @@
+sudo: false
 language: node_js
 node_js:
-    - stable
-
+- stable
 notifications:
-    email: true
-    slack: webhouseteam:82qu1PX5R5wkYNCW5x6fVlhu
-
+  email: true
+  slack: webhouseteam:82qu1PX5R5wkYNCW5x6fVlhu
+branches:
+  only:
+  - master
 script:
-  - yarn
-  - yarn build
-  - cp ./build/index.html ./build/200.html
-#  - cp -r /home/travis/build/odeum/odeum-codejs/experiments/3/build ../../
-
+- yarn dist
 deploy:
-  provider: surge
-  project: ./build/
-  domain: yournewapp.odeum-codejs.surge.sh
-  skip_cleanup: true
+  provider: npm
+  email: cb@webhouse.dk
+  api_key:
+    secure: 34jU/A5cazNfwcO5iLUdZI8qG179Eo5sF80cbVliLGl9pXHmZ0CFR2HqzO9oVlTfWPlVLQeD0kI4FbcxmKhOyguRjyzMsglY3XoMsjbiQgEVyqb8GU4Wq6GBAoyC8G3boYDd39JF+1qECPv0j+so7dBd7qqN+ydGk5OteXxWxvazY8ylVR1zWFoRULGpcLDohxlgNHqgPOclbvNc3d+V81qJKOuByvGHdmcfI1cFxulafTovG/oFY+DOiBtr2uMg+NYu8MV544AZMIse/rjeu52b3Mtp90mUpzk99MzpEdZ+Eet3SCq0vKsL2l5PyTGv0yWx5wZ3tKQhZ8+izl9h0YsZ4xbALMul68yEpXVdEZV41roNg+Wp6ICr5GD9rqmg2LlxrRnt6NfMN6jVmczQpO5KCmDhOEVH4pJ3CtcuZt5Dpqh+jljWup0m76QMJjsOzVZkZKs6u0d/ANbatQfKRvbIv386KzClYkDAbmAEXGoybHwlSyGEvz6bo8ayt0ZC578F8zB9YQLXJDP4EJDrElH/HrpOeupE7e86ooH2bxXlVYYALwOsBBcDFd5Id8fqlgG1DbpiYXpH/WeizarUVkmLnN6x6XCI5NbSD2da9x6UwUIF2SZONshWgpL/Gn6cHhkaBpHcFwY1IdRAuaVLyjSBnWeGKIYPdnaU/MyvTNE=
   on:
-    all_branches: true
+    repo: odeum/odeum-primitives
+
+# https://docs.npmjs.com/getting-started/publishing-npm-packages
+# https://docs.travis-ci.com/user/encryption-keys/#Usage
+# https://docs.travis-ci.com/user/deployment/npm/

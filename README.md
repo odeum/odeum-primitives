@@ -1,7 +1,6 @@
 <a href="https://github.com/odeum/odeum-primitives">
   <img alt="ODEUM Primitives" src="./logotype.png" />
 </a>
-==============================================
 
 React UI component primitives for [ODEUM Code](https://github.com/odeum/odeum-code) built with styled-components
 
@@ -42,5 +41,6 @@ import { Heading, Image, Label, Link, Space, Text, View } from 'odeum-primitives
 ...
 
 <Heading>Hello World</Heading>
+
 ```
 
