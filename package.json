@@ -1,10 +1,19 @@
 {
 	"name": "odeum-primitives",
-	"version": "0.1.9",
+	"version": "0.1.10",
 	"description": "React UI component primitives for ODEUM Code built with styled-components",
 	"main": "lib/index.js",
 	"author": "Christian Broberg",
 	"license": "MIT",
+	"keywords": [
+		"react",
+		"odeum",
+		"odeum-code",
+		"styled-components",
+		"primitives",
+		"framework",
+		"javascript"
+	],
 	"scripts": {
 		"build": "babel src --out-dir lib",
 		"clean": "rm -rf lib",
@@ -34,7 +43,7 @@
 		"url": "git+https://github.com/odeum/odeum-primitives.git"
 	},
 	"bugs": {
-		"url": "https://github.com/odeum/wraodeum-primitivespwrap/issues"
+		"url": "https://github.com/odeum/odeum-primitives/issues"
 	},
 	"homepage": "https://github.com/odeum/odeum-primitives#readme"
 }
