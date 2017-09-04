@@ -5,6 +5,7 @@
 React UI component primitives for [ODEUM Code](https://github.com/odeum/odeum-code) built with styled-components
 
 [![Build Status](https://travis-ci.org/odeum/odeum-primitives.svg?branch=master)](https://travis-ci.org/odeum/odeum-primitives)
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/odeum-primitives)
 
 <!-- TOC -->
 
