@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import { StyledView } from './StyledView'
 
 class View extends Component {
 	render() {
 		return (
 			<div>
-				
+				<StyledView>{this.props.children}</StyledView>
 			</div>
 		)
 	}
