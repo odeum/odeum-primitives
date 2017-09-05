@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const StyledHeading1 = styled.h1`
 	color: #3B97D3;
+	font-family: 'Source Sans Pro';
 `
 
 export const StyledHeading2 = styled.h2`

@@ -4,22 +4,23 @@ import { StyledLink } from './LinkStyles'
 
 class Link extends Component {
 	render() {
+		const { url, children } = this.props
 		return (
 			<div>
-				<StyledLink src={this.props.src}>{this.props.children}</StyledLink>
+				<StyledLink href={url}>{children}</StyledLink>
 			</div>
 		)
 	}
 }
 
 Link.propTypes = {
-	xxx: PropTypes.string,
+	url: PropTypes.string,
 	yyy: PropTypes.string,
 	zzz: PropTypes.string
 }
 
 Link.defaultProps = {
-	xxx: '',
+	url: '',
 	yyy: '',
 	zzz: ''
 }
