@@ -19,7 +19,6 @@ deploy:
   api_key: $NPM_TOKEN
   on:
     repo: odeum/odeum-primitives
-    tags: true
 
 notifications:
   email: true
