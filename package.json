@@ -1,6 +1,6 @@
 {
 	"name": "odeum-primitives",
-	"version": "0.1.14",
+	"version": "0.1.15",
 	"description": "React UI component primitives for ODEUM Code built with styled-components",
 	"main": "lib/index.js",
 	"author": "Christian Broberg",

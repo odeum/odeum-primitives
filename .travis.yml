@@ -7,7 +7,7 @@ node_js:
 
 notifications:
   email: true
-  slack: webhouseteam:82qu1PX5R5wkYNCW5x6fVlhu
+  slack: $SLACK_TOKEN
 
 branches:
   only:
