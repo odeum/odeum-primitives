@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { StyledHeading1/* , StyledHeading2, StyledHeading3, StyledHeading4, StyledHeading5, StyledHeading6 */ } from './StyledHeading'
+import { StyledHeading1/* , StyledHeading2, StyledHeading3, StyledHeading4, StyledHeading5, StyledHeading6 */ } from './HeadingStyles'
 
 class Heading extends Component {
 	render() {

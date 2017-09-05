@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import { StyledLabel } from './LabelStyles'
 
 class Label extends Component {
 	render() {
 		return (
 			<div>
-				
+				<StyledLabel>{this.props.children}</StyledLabel>
 			</div>
 		)
 	}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { StyledView } from './StyledView'
+import { StyledView } from './ViewStyles'
 
 class View extends Component {
 	render() {

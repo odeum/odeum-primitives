@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import { StyledLink } from './SpaceStyles'
 
 class Space extends Component {
 	render() {
 		return (
 			<div>
-				
+				<StyledSpace>{this.props.children}</StyledSpace>
 			</div>
 		)
 	}
