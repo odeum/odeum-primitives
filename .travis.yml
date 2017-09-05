@@ -20,7 +20,6 @@ deploy:
   skip_cleanup: true
   provider: npm
   email: cb@webhouse.dk
-  api_key:
-    secure: tU7ttgQHLiVYJyK1JCAdAHz0h/RjhN8V3dQ7r4X/qdWaUucD+VuMGhJQJ1nrwz/3FYzBTZNVDg7xzgUfDuWgbgZG8SOA3cgAX8UpjS5/W2cCSQlZa7cfSwvBMSTlSSV58iEj9RXMpxZVMLLXnDUFZEyIS0Eay+wkoAmOGMUI+U8BFgrupvyej6cCXtf+Px7m8y/MJXwrbGXuTxHGA+k/Fx+tSBWtjorcFspIvUvwJCp5qIS95en23AM9nMiqFusNcHQkMCvxe8GbDyoWVaEh73e2hQLVZlub+hdVSJn4Ytu1w8ngqj+czkt27HZzY8WwsM0LWjXR4t4DmDUuxcufGvMb7/rKm7m6eqU5j+j/YxtvDB/lWdsCSlsINVSSkrgN93mAhA2OeoUHmVcbVllJR656AS6ABRzexrx8VvOfc1JH2qDDzmq+8Bt6dKkFmiacFWBh4Wfa+GcH60s2sGvLGD/OUkqy+5LO3eaRR1kgG526MZ38kNMsCM7oj3Np+glaaBd6YSAfiDi1hGftu99rVvDYpFHJF8hYOMLsduTTK7/52W6gJSSLJGb0duUHWB0pUS+lYTgAX823/egMsosLsGbnah4F4XvqtTz6TvPTyaymt6o4vI/4ALRq/HU97tlAvlc/5ckSIZM0XGDbhv8nlxgDGfxtp24U2NGlJrFOBAo=
+  api_key: $NPM_TOKEN
   on:
     repo: odeum/odeum-primitives
