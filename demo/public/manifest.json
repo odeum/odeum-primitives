@@ -1,6 +1,6 @@
 {
-  "short_name": "ODEUM Primitives Example App",
-  "name": "ODEUM Primitives Example App",
+  "short_name": "ODEUM Primitives Demo App",
+  "name": "ODEUM Primitives Demo App",
   "icons": [
     {
       "src": "favicon.ico",
