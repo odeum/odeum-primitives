@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { StyledLink } from './SpaceStyles'
+import { StyledSpace } from './SpaceStyles'
 
 class Space extends Component {
 	render() {
