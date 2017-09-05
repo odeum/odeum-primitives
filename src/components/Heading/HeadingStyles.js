@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const StyledHeading1 = styled.h1`
-	color: 'cyan';
+	color: #3B97D3;
 `
 
 export const StyledHeading2 = styled.h2`
