@@ -6,7 +6,7 @@ class Link extends Component {
 	render() {
 		return (
 			<div>
-				<StyledLink>{this.props.children}</StyledLink>
+				<StyledLink src={this.props.src}>{this.props.children}</StyledLink>
 			</div>
 		)
 	}

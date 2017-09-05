@@ -4,25 +4,25 @@ import { StyledImage } from './ImageStyles'
 
 class Image extends Component {
 	render() {
+		const { image, alt } = this.props
 		return (
 			<div>
-				<StyledImage>{this.props.children}</StyledImage>
+				<StyledImage src={image} alt={alt} />
 			</div>
 		)
 	}
 }
 
 Image.propTypes = {
-	xxx: PropTypes.string,
-	yyy: PropTypes.string,
-	zzz: PropTypes.string
+	image: PropTypes.string,
+	alt: PropTypes.string
 }
 
 Image.defaultProps = {
-	xxx: '',
-	yyy: '',
-	zzz: ''
+	image: '',
+	alt: ''
 }
 
 
 export default Image
+

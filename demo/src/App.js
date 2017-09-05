@@ -5,7 +5,7 @@ const App = ({ name }) => {
 	return (
 		<div>
 			<Heading>Hello World {name} </Heading>
-			<Image src={require('./logotype.png')}/>
+			<Image image={require('./logotype.png')}/>
 			<Label>This is a label</Label>
 			<Link src="http://odeumcode.com">This is a link</Link>
 			<Space>This is an area of space</Space>
