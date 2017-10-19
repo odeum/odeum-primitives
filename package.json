@@ -1,6 +1,6 @@
 {
 	"name": "odeum-primitives",
-	"version": "0.1.27",
+	"version": "0.1.28",
 	"description": "React UI component primitives for ODEUM Code built with styled-components",
 	"main": "lib/index.js",
 	"author": "Christian Broberg",
@@ -11,6 +11,7 @@
 		"odeum-code",
 		"styled-components",
 		"primitives",
+		"styled-primitives",
 		"framework",
 		"javascript"
 	],
@@ -18,7 +19,7 @@
 		"build": "babel src --out-dir lib",
 		"clean": "rm -rf lib",
 		"dist": "yarn run clean && yarn run build",
-		"rundemo": "sh copyfiles && cd ./demo && yarn start"
+		"demo": "sh copyfiles && cd ./demo && yarn start"
 	},
 	"dependencies": {
 		"polished": "^1.8.0",
