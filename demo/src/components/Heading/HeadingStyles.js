@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const StyledHeading = styled.h1`
+export const StyledHeading = styled.h`
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 	font-size: ${({ size }) => sizes[size].fontSize};
 	font-weight: ${({ weight }) => weight};

@@ -1,6 +1,6 @@
 {
 	"name": "odeum-primitives",
-	"version": "0.1.26",
+	"version": "0.1.27",
 	"description": "React UI component primitives for ODEUM Code built with styled-components",
 	"main": "lib/index.js",
 	"author": "Christian Broberg",
@@ -17,28 +17,27 @@
 	"scripts": {
 		"build": "babel src --out-dir lib",
 		"clean": "rm -rf lib",
-		"dist": "yarn run clean && yarn run build"
+		"dist": "yarn run clean && yarn run build",
+		"rundemo": "sh copyfiles && cd ./demo && yarn start"
 	},
 	"dependencies": {
 		"polished": "^1.8.0",
 		"react": "^16.0.0",
 		"react-dom": "^16.0.0",
-		"react-icons": "^2.2.7",
-		"react-modal": "^3.0.0",
-		"styled-components": "^2.1.2"
+		"styled-components": "^2.2.1"
 	},
 	"devDependencies": {
 		"babel-cli": "^6.26.0",
-		"babel-eslint": "^7.2.3",
+		"babel-eslint": "^8.0.1",
 		"babel-preset-es2015": "^6.24.1",
 		"babel-preset-react": "^6.24.1",
 		"babel-preset-stage-2": "^6.24.1",
-		"eslint": "^4.1.1",
-		"eslint-config-react-app": "^2.0.0",
-		"eslint-plugin-flowtype": "^2.34.1",
-		"eslint-plugin-import": "^2.6.0",
-		"eslint-plugin-jsx-a11y": "^5.1.1",
-		"eslint-plugin-react": "^7.1.0"
+		"eslint": "^4.9.0",
+		"eslint-config-react-app": "^2.0.1",
+		"eslint-plugin-flowtype": "^2.39.1",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-jsx-a11y": "^6.0.2",
+		"eslint-plugin-react": "^7.4.0"
 	},
 	"babel": {
 		"presets": [
