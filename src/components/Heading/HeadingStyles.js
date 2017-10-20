@@ -13,18 +13,26 @@ export const sizes = {
 		fontSize: '40px',
 	},
 	'2': {
-		fontSize: '25px',
+		fontSize: '35px',
 	},
 	'3': {
-		fontSize: '20px',
+		fontSize: '28px',
 	},
 	'4': {
-		fontSize: '18px',
+		fontSize: '22px',
 	},
 	'5': {
-		fontSize: '15px',
+		fontSize: '18px',
 	},
 	'6': {
-		fontSize: '12px',
+		fontSize: '15px',
 	}
 }
+
+/* 
+
+	font-size: ${(props) => props.size ? props.size : props.fixedSize ? sizes[props.fixedSize].fontSize : props.hasIcon ? '0 0 0 10px' : '0 0 0 15px'};
+	font-weight: ${({ size }) => sizes[size].height};
+
+
+*/

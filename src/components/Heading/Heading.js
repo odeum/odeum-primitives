@@ -4,7 +4,6 @@ import { StyledHeading } from './HeadingStyles'
 
 class Heading extends Component {
 	render() {
-		// const { ...styles } = this.props // (...styles rest operator passes down all props)
 		return (
 			<div>
 				<StyledHeading {...this.props}>{this.props.children}</StyledHeading>
@@ -15,7 +14,7 @@ class Heading extends Component {
 
 Heading.propTypes = {
 	size: PropTypes.oneOf([1, 2, 3, 4, 5, 6]),
-	weight: PropTypes.oneOf([300, 400, 600, 700, 900]),
+	weight: PropTypes.oneOf([300, 400, 500, 600, 700, 900]),
 	color: PropTypes.string
 }
 

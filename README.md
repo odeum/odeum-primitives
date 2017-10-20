@@ -19,19 +19,19 @@ ODEUM Primitives are ReactJS UI primitives build for [ODEUM Code](https://github
 # 1. Components
 ODEUM Primitives (odeum-primitives) are a collection of simple visual components build for ODEUM Code open source UI framework. All components are build with styled-components and ReactJS and the following components will be added:
 
-- Heading - a simple header component
+- Heading - Header component
 - Image - Image component with async resource fetch and assets control
 - Label - Label component
-- Link - a link component
-- Space - empty spaces (transparent, color)
-- Text - a simple text paragraph
-- View - a container for creating styled views
+- Link - Link component
+- Space - Space creates empty spaces (transparent, color)
+- Text - Text paragraph
+- View - Container for creating styled views
 
 
 # 2. Installation
 ```sh
-npm install odeum-primitives
-yarn add odeum-primitives
+$ npm install odeum-primitives
+$ yarn add odeum-primitives
 ```
 
 # 3. Usage
@@ -39,16 +39,23 @@ yarn add odeum-primitives
 ```js
 import React from 'react'
 import { Heading, 
-		 Image, 
-		 Label, 
-		 Link, 
-		 Space, 
-		 Text, 
-		 View } from 'odeum-primitives'
+	 Image, 
+	 Label, 
+	 Link, 
+	 Space, 
+	 Text, 
+	 View } from 'odeum-primitives'
 
+const styles = {
+  size: 1,
+  weight: 500,
+  color: 'magenta'
+}
 ...
 
 <Heading>Hello World</Heading>
-
+<Heading size={1}>Hello {name}</Heading>
+<Heading size={2} weight={900}>Hello {name}</Heading>
+<Heading size={3} weight={500} color={'black'}>Hello {name}</Heading>
+<Heading {...styles}>Heading from styles object</Heading>
 ```
-
