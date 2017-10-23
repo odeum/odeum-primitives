@@ -26,7 +26,7 @@ ODEUM Primitives (odeum-primitives) are a collection of simple visual components
 - Space - Space creates empty spaces (transparent, color)
 - Text - Text paragraph
 - View - Container for creating styled views
-
+ 
 
 # 2. Installation
 ```sh
