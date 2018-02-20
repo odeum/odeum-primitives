@@ -27,7 +27,8 @@
         "object-curly-spacing": ["error", "always"],
         "space-infix-ops": "error",
         "space-before-blocks": "error",
-        "arrow-spacing": "error",
+		"arrow-spacing": "error",
+		"jsx-a11y/href-no-hash": 0,
         "react/display-name": 0
     },
        "extends": [

@@ -59,3 +59,5 @@ const styles = {
 <Heading size={3} weight={500} color={'black'}>Hello {name}</Heading>
 <Heading {...styles}>Heading from styles object</Heading>
 ```
+
+... TBC
